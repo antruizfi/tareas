@@ -6,7 +6,7 @@ int main(){
 	int i, A[9], inf, sup;
 	
 	printf("\n\nInroduce nUmeros enteros en el arreglo: \n");
-	for(i=0;i<10;i++){
+	for(i=0;i<9;i++){
 		scanf("%d",&A[i]);
 		fflush(stdin);
 	}
