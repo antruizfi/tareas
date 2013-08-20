@@ -11,8 +11,9 @@ int main(){
 	do{
 		printf("Desea rotar a la derecha?\n1.- SI\n2.- Salir\n");
 		scanf("%d",&opc);
+		printf("\n\n");
 		rotarDerecha(A);
-	}while(opc==1);
+	}while(opc!=2);
 	return 0;
 }
 void rotarDerecha(int A[9]){
